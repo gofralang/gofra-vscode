@@ -1,24 +1,30 @@
-## VS Code extension for Gofra
+# Gofra for VS Code
 
-The extension is currently available by installing it directly from the source. We are working on publishing it to the Visual Studio Code Marketplace for easier installation.
+Extension for Gofra programming language in Visual Studio Code
 
-#### Manual Installation from Source
+## Features
+
+- Syntax Highlighting: Support for `.gof` file syntax.
+
+## Installation
+
+### Manual Installation from Source
 
 1. Clone the Repository:
 
-   ```bash
-   git clone https://github.com/kirillzhosul/gofra-vscode
-   ```
+```bash
+git clone https://github.com/kirillzhosul/gofra-vscode
+```
 
 2. Package the Extension:
    You need to have Node.js and the vsce (Visual Studio Code Extensions) tool installed.
 
-   ```bash
-   npm install -g @vscode/vsce
-   vsce package
-   ```
+```bash
+npm install -g @vscode/vsce
+vsce package
+```
 
-   This command will create a .vsix file in the directory.
+This command will create a .vsix file in the directory.
 
 3. Install in VS Code:
 
@@ -27,7 +33,3 @@ The extension is currently available by installing it directly from the source. 
 - Click the "..." menu in the top-right of the Extensions panel and select Install from VSIX....
 - Navigate to and select the .vsix file you created in the previous step.
 - Reload VS Code when prompted.
-
-#### Features
-
-- Syntax Highlighting: Support for `.gof` file syntax.

@@ -1,19 +1,32 @@
 {
   "name": "gofra",
   "displayName": "Gofra",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "publisher": "gofralang",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.0.0"
+    "vscode": "^1.75.0"
   },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "gofra",
+    "language",
+    "compiler"
+  ],
   "repository": {
-    "url": "https://github.com/kirillzhosul/gofra-vscode"
+    "type": "git",
+    "url": "https://github.com/gofralang/gofra-vscode"
   },
+  "homepage": "https://github.com/gofralang/gofra-vscode#readme",
   "contributes": {
     "languages": [
       {
         "id": "gofra",
         "aliases": [
-          "Gofra"
+          "Gofra",
+          "gofra"
         ],
         "extensions": [
           ".gof",
